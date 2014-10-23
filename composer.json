@@ -1,0 +1,7 @@
+{
+    "require": {
+        "ext-gd": "*",
+        "dompdf/dompdf": "dev-master",
+        "phpoffice/phpword": "dev-master"
+    }
+}
