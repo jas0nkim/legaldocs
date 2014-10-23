@@ -90,3 +90,6 @@ TEMPLATE_DIRS = [
 ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value.
 
 REGISTRATION_TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates/registration'),
+
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
