@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PhpOffice\\PhpWord\\' => array($vendorDir . '/phpoffice/phpword/src/PhpWord'),
-    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
 );
