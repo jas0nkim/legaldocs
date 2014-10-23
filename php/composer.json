@@ -2,6 +2,7 @@
     "require": {
         "ext-gd": "*",
         "dompdf/dompdf": "dev-master",
-        "phpoffice/phpword": "dev-master"
+        "phpoffice/phpword": "dev-master",
+        "laravel/laravel": "dev-master"
     }
 }
