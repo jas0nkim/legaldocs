@@ -93,6 +93,7 @@ return array(
     'Page_Frame_Reflower' => $vendorDir . '/dompdf/dompdf/include/page_frame_reflower.cls.php',
     'Positioner' => $vendorDir . '/dompdf/dompdf/include/positioner.cls.php',
     'Renderer' => $vendorDir . '/dompdf/dompdf/include/renderer.cls.php',
+    'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
     'Style' => $vendorDir . '/dompdf/dompdf/include/style.cls.php',
     'Stylesheet' => $vendorDir . '/dompdf/dompdf/include/stylesheet.cls.php',
     'TCPDF_Adapter' => $vendorDir . '/dompdf/dompdf/include/tcpdf_adapter.cls.php',

@@ -4,6 +4,6 @@
         "ext-mcrypt": "*",
         "dompdf/dompdf": "dev-master",
         "phpoffice/phpword": "dev-master",
-        "slim/slim": "dev-master"
+        "silex/silex": "~1.2"
     }
 }

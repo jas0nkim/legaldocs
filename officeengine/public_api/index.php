@@ -7,10 +7,10 @@ define('APP_VENDOR_PATH', realpath(APP_MASTER_PATH . '/vendor'));
 require APP_VENDOR_PATH . '/autoload.php';
 
 
-$app = new \Slim\Slim();
+$app = new \Silex\Application();
 
-$app->get('/hello/:name', function ($name) {
-    echo "Hello, $name";
+$app->get('/hello/{name}', function ($name) use ($app) {
+    echo 'Hello ' . $app->escape($name);
 });
 
 $app->run();
