@@ -1,0 +1,27 @@
+<VirtualHost *:80>
+
+    ServerAdmin jason@realwebsolutions.com
+
+    ServerName legaldocs.dev
+
+    DocumentRoot /Proj/legaldocs/officeengine/public_api
+
+    <Directory /Proj/legaldocs/officeengine/public_api>
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^ index.php [QSA,L]
+    </Directory>
+
+    ErrorLog /var/log/apache2/legaldocs.dev-error.log
+
+    # Possible values include: debug, info, notice, warn, error, crit, alert, emerg.
+    LogLevel info
+
+    CustomLog /var/log/apache2/legaldocs.dev-access.log combined
+    ServerSignature On
+
+</VirtualHost>
