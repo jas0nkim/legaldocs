@@ -1,4 +1,8 @@
 {
+	"autoload": {
+	    "psr-0": {"": "src/"}
+	},
+
     "require": {
         "ext-gd": "*",
         "ext-mcrypt": "*",
